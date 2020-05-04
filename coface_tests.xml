@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Coface Tests">
+
+    <test name = "Add One Time Check service">
+        <classes>
+            <class name ="tests.CofaceTests">
+            </class>
+        </classes>
+    </test>
+
+</suite>

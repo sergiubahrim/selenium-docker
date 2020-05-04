@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Search Demo" parallel="none">
+
+    <test name = "search-java">
+        <parameter name="keyword" value="java"/>
+        <classes>
+            <class name ="demoTests.Searchducktest">
+            </class>
+        </classes>
+    </test>
+
+    <test name = "search-selenium">
+        <parameter name="keyword" value="selenium"/>
+        <classes>
+            <class name ="demoTests.Searchducktest">
+            </class>
+        </classes>
+    </test>
+
+    <test name = "search-webdriver">
+        <parameter name="keyword" value="webdriver"/>
+        <classes>
+            <class name ="demoTests.Searchducktest">
+            </class>
+        </classes>
+    </test>
+
+    <test name = "search-docker">
+        <parameter name="keyword" value="docker"/>
+        <classes>
+            <class name ="demoTests.Searchducktest">
+            </class>
+        </classes>
+    </test>
+
+</suite>

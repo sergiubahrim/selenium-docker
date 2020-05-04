@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Search Demo]">
+  <test thread-count="5" name="search-java(failed)">
+    <parameter name="keyword" value="java"/>
+    <classes>
+      <class name="demoTests.Searchducktest">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demoTests.Searchducktest -->
+    </classes>
+  </test> <!-- search-java(failed) -->
+  <test thread-count="5" name="search-selenium(failed)">
+    <parameter name="keyword" value="selenium"/>
+    <classes>
+      <class name="demoTests.Searchducktest">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demoTests.Searchducktest -->
+    </classes>
+  </test> <!-- search-selenium(failed) -->
+  <test thread-count="5" name="search-webdriver(failed)">
+    <parameter name="keyword" value="webdriver"/>
+    <classes>
+      <class name="demoTests.Searchducktest">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demoTests.Searchducktest -->
+    </classes>
+  </test> <!-- search-webdriver(failed) -->
+  <test thread-count="5" name="search-docker(failed)">
+    <parameter name="keyword" value="docker"/>
+    <classes>
+      <class name="demoTests.Searchducktest">
+        <methods>
+          <include name="quit"/>
+          <include name="search"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- demoTests.Searchducktest -->
+    </classes>
+  </test> <!-- search-docker(failed) -->
+</suite> <!-- Failed suite [Search Demo] -->
