@@ -25,6 +25,6 @@ public class CofaceTests extends BaseTest {
         CofaceElementsAndActions cf1 = new CofaceElementsAndActions(driver);
         cf1.LoginAndCountry("sergiu.bahrim+ko3@tradeshift.com", "Password123");
         cf1.AddInquiry();
-        cf1.FinishOrder();
+        //cf1.FinishOrder();
     }
 }

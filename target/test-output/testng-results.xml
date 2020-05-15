@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Search Demo" duration-ms="58791" started-at="2020-05-06T11:00:05Z" finished-at="2020-05-06T11:01:04Z">
+    <groups>
+    </groups>
+    <test name="search-java" duration-ms="15838" started-at="2020-05-06T11:00:05Z" finished-at="2020-05-06T11:00:21Z">
+      <class name="demoTests.Searchducktest">
+        <test-method status="PASS" signature="before()[pri:0, instance:demoTests.Searchducktest@4ec6a292]" name="before" is-config="true" duration-ms="2791" started-at="2020-05-06T11:00:05Z" finished-at="2020-05-06T11:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:demoTests.Searchducktest@4ec6a292]" name="search" duration-ms="12962" started-at="2020-05-06T11:00:08Z" finished-at="2020-05-06T11:00:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:demoTests.Searchducktest@4ec6a292]" name="quit" is-config="true" duration-ms="68" started-at="2020-05-06T11:00:21Z" finished-at="2020-05-06T11:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- demoTests.Searchducktest -->
+    </test> <!-- search-java -->
+    <test name="search-selenium" duration-ms="14542" started-at="2020-05-06T11:00:21Z" finished-at="2020-05-06T11:00:36Z">
+      <class name="demoTests.Searchducktest">
+        <test-method status="PASS" signature="before()[pri:0, instance:demoTests.Searchducktest@6bdf28bb]" name="before" is-config="true" duration-ms="706" started-at="2020-05-06T11:00:21Z" finished-at="2020-05-06T11:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:demoTests.Searchducktest@6bdf28bb]" name="search" duration-ms="13770" started-at="2020-05-06T11:00:22Z" finished-at="2020-05-06T11:00:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:demoTests.Searchducktest@6bdf28bb]" name="quit" is-config="true" duration-ms="65" started-at="2020-05-06T11:00:36Z" finished-at="2020-05-06T11:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- demoTests.Searchducktest -->
+    </test> <!-- search-selenium -->
+    <test name="search-webdriver" duration-ms="13624" started-at="2020-05-06T11:00:36Z" finished-at="2020-05-06T11:00:49Z">
+      <class name="demoTests.Searchducktest">
+        <test-method status="PASS" signature="before()[pri:0, instance:demoTests.Searchducktest@4c203ea1]" name="before" is-config="true" duration-ms="688" started-at="2020-05-06T11:00:36Z" finished-at="2020-05-06T11:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:demoTests.Searchducktest@4c203ea1]" name="search" duration-ms="12871" started-at="2020-05-06T11:00:36Z" finished-at="2020-05-06T11:00:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:demoTests.Searchducktest@4c203ea1]" name="quit" is-config="true" duration-ms="64" started-at="2020-05-06T11:00:49Z" finished-at="2020-05-06T11:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- demoTests.Searchducktest -->
+    </test> <!-- search-webdriver -->
+    <test name="search-docker" duration-ms="14749" started-at="2020-05-06T11:00:49Z" finished-at="2020-05-06T11:01:04Z">
+      <class name="demoTests.Searchducktest">
+        <test-method status="PASS" signature="before()[pri:0, instance:demoTests.Searchducktest@49e4cb85]" name="before" is-config="true" duration-ms="878" started-at="2020-05-06T11:00:49Z" finished-at="2020-05-06T11:00:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="search(java.lang.String)[pri:0, instance:demoTests.Searchducktest@49e4cb85]" name="search" duration-ms="13800" started-at="2020-05-06T11:00:50Z" finished-at="2020-05-06T11:01:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:demoTests.Searchducktest@49e4cb85]" name="quit" is-config="true" duration-ms="70" started-at="2020-05-06T11:01:04Z" finished-at="2020-05-06T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- demoTests.Searchducktest -->
+    </test> <!-- search-docker -->
+  </suite> <!-- Search Demo -->
+</testng-results>
