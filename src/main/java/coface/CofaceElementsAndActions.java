@@ -65,7 +65,7 @@ public class CofaceElementsAndActions {
         Thread.sleep(5000);
         switchIframe();
         waitAndClick(driver, viewPortfolio);
-        System.out.println("Portfolio accessed! \nAdd monitoring process started!");
+        System.out.println("Portfolio accessed! \nAdd company process started!");
 
         waitAndClick(driver, addCompany);
         waitAndClick(driver, countrySelect);

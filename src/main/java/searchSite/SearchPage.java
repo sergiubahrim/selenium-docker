@@ -52,10 +52,10 @@ public class SearchPage {
         Thread.sleep(10000);
     }
 
-    public int getResult(){
+    public int getResult(String keyword){
         By by = By.className("tile--vid");
         this.wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(by, 2));
-        System.out.println(this.allVideos.size());
+        System.out.println(this.allVideos.size() + "results found with " + keyword);
         return this.allVideos.size();
     }
 

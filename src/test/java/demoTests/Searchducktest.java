@@ -21,7 +21,7 @@ public class Searchducktest extends BaseTest {
         searchPage.goTo();
         searchPage.doSearch(keyword);
         searchPage.goToVideos();
-        int size = searchPage.getResult();
+        int size = searchPage.getResult(keyword);
 
         Assert.assertTrue(size > 0);
     }
