@@ -55,7 +55,7 @@ public class SearchPage {
     public int getResult(String keyword){
         By by = By.className("tile--vid");
         this.wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(by, 2));
-        System.out.println(this.allVideos.size() + "results found with " + keyword);
+        System.out.println(this.allVideos.size() + " search results found with " + "\"" + keyword + "\"" + " keyword");
         return this.allVideos.size();
     }
 
